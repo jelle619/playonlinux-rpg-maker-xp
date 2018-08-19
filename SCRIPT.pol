@@ -18,7 +18,7 @@ POL_Debug_Init
 POL_SetupWindow_presentation "$TITLE" "Enterbrain" "http://www.rpgmakerweb.com/" "ntzrmtthihu777" "$PREFIX"
 
 POL_Wine_SelectPrefix "$PREFIX"
-POL_Wine_PrefixCreate "3.13"
+POL_Wine_PrefixCreate "3.14"
 POL_System_SetArch "x86"
 
 POL_System_TmpCreate "$PREFIX"
@@ -34,7 +34,6 @@ POL_Call POL_Install_dxfullsetup
 POL_Call POL_Install_gdiplus
 POL_Call POL_Install_RegisterFonts
 POL_Call POL_Install_ie6
-POL_Call POL_Install_wmp9
 POL_Wine_OverrideDLL "native,builtin" "d3d8" "d3d9"
 
 # Fetch the program from the official source and install it
